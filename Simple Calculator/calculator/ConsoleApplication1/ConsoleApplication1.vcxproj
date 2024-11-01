@@ -146,12 +146,14 @@
   <ItemGroup>
     <ClCompile Include="add.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="multiply.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\project_documentation.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.h" />
+    <ClInclude Include="multiply.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

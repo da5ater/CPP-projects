@@ -12,7 +12,5 @@ public :
 
 	double perform();
 
-	double format();
-
 };
 
